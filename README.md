@@ -1,4 +1,4 @@
-# Kyoto Matcha Latte LP (Dummy Version)
+# SAMPLE Latte LP (Dummy Version)
 
 🍵 スターバックス風のキャンペーンLPを **HTML / CSS / jQuery** だけで再現したテンプレートです。  
 画像はすべて [placehold.co](https://placehold.co/) のダミーCDNを利用しているため、追加の画像ファイルは不要です。
