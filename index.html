@@ -4,10 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<title>SAMPLE LATTE - Special</title>
-		<meta
-			name="description"
-			content="SAMPLEな一杯。ダミー画像CDNを使用したLPテンプレート。"
-		/>
+		<meta name="description" content="SAMPLEな一杯。ダミー画像CDNを使用したLPテンプレート。" />
 		<meta property="og:title" content="SAMPLE LATTE - Special" />
 		<meta property="og:description" content="SAMPLEな一杯。" />
 		<meta property="og:type" content="website" />
@@ -22,154 +19,167 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<header class="site-header">
-			<div class="container header-row">
-				<a href="#top" class="brand js-scroll">
+		<header class="header">
+			<div class="l-container header__row">
+				<a href="#top" class="header__brand js-scroll">
 					<img src="https://placehold.co/80x80/svg?text=Logo" alt="Logo" />
 					<span>SAMPLE LATTE</span>
 				</a>
-				<nav class="nav">
-					<a href="#about" class="js-scroll">〇〇について</a>
-					<a href="#features" class="js-scroll">こだわり</a>
-					<a href="#howto" class="js-scroll">楽しみ方</a>
-					<a href="#faq" class="js-scroll">FAQ</a>
+				<nav class="header__nav">
+					<a href="#about" class="header__link js-scroll">〇〇について</a>
+					<a href="#features" class="header__link js-scroll">こだわり</a>
+					<a href="#howto" class="header__link js-scroll">楽しみ方</a>
+					<a href="#faq" class="header__link js-scroll">FAQ</a>
 				</nav>
 			</div>
 		</header>
 
 		<!-- Hero -->
 		<main id="top" class="hero">
-			<div class="hero-bg">
+			<div class="hero__bg">
 				<img src="https://placehold.co/1600x900/jpg?text=KV+Background" alt="KV" />
-				<div class="hero-overlay"></div>
-				<img class="hero-pattern" src="https://placehold.co/1200x200/svg?text=Pattern" alt="" />
+				<div class="hero__overlay"></div>
+				<img class="hero__pattern" src="https://placehold.co/1200x200/svg?text=Pattern" alt="" />
 			</div>
-			<div class="container hero-inner">
-				<div class="hero-copy">
-					<p class="eyebrow">数量限定</p>
-					<h1>風、香る。<br />余韻、やさしく長く。</h1>
-					<p class="lead">
+			<div class="l-container hero__inner">
+				<div class="hero__copy">
+					<p class="hero__eyebrow">数量限定</p>
+					<h1 class="hero__title">風、香る。<br />余韻、やさしく長く。</h1>
+					<p class="hero__lead">
 						選び抜いたSAMPLEとミルクの調和。<br />
 						ひと口で、情緒がほどけていく。
 					</p>
-					<div class="cta-row">
-						<a href="#about" class="btn btn-primary js-scroll">この一杯について</a>
-						<a href="#howto" class="btn btn-outline js-scroll">おいしい飲み方</a>
+					<div class="hero__cta-row">
+						<a href="#about" class="btn btn--primary js-scroll">この一杯について</a>
+						<a href="#howto" class="btn btn--outline js-scroll">おいしい飲み方</a>
 					</div>
 				</div>
-				<div class="hero-bottle">
+				<div class="hero__bottle">
 					<img src="https://placehold.co/400x800/png?text=Bottle" alt="Bottle" />
 				</div>
 			</div>
 		</main>
 
 		<!-- About -->
-		<section id="about" class="about reveal">
-			<div class="container about-grid">
-				<div class="about-image">
+		<section id="about" class="about u-reveal">
+			<div class="l-container about__grid">
+				<div class="about__image">
 					<img src="https://placehold.co/600x800/png?text=Leaf" alt="茶葉" />
 				</div>
-				<div class="about-copy">
-					<h2 class="section-title">SAMPLEへの敬意</h2>
-					<p class="section-lead">
+				<div class="about__copy">
+					<h2 class="section__title">SAMPLEへの敬意</h2>
+					<p class="section__lead">
 						旨み・香り・渋みのバランスがととのうようブレンドしたSAMPLEを使用。
 					</p>
-					<ul class="spec-list">
-						<li><strong>使用SAMPLE：</strong>厳選ブレンド</li>
-						<li><strong>甘さ：</strong>控えめ</li>
-						<li><strong>香り：</strong>青々しさと焙香</li>
+					<ul class="about__spec-list">
+						<li class="about__spec-item"><strong>使用SAMPLE：</strong>厳選ブレンド</li>
+						<li class="about__spec-item"><strong>甘さ：</strong>控えめ</li>
+						<li class="about__spec-item"><strong>香り：</strong>青々しさと焙香</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
 		<!-- Features -->
-		<section id="features" class="features reveal">
-			<div class="container">
-				<h2 class="section-title">3つのこだわり</h2>
-				<div class="cards">
+		<section id="features" class="features u-reveal">
+			<div class="l-container">
+				<h2 class="section__title">3つのこだわり</h2>
+				<div class="features__cards">
 					<article class="card">
-						<img src="https://placehold.co/600x400/jpg?text=Feature1" alt="Feature1" />
-						<h3>点てるように、混ぜる</h3>
-						<p>なめらかな口当たりのため微細に混ぜ合わせ。</p>
+						<img
+							class="card__img"
+							src="https://placehold.co/600x400/jpg?text=Feature1"
+							alt="Feature1"
+						/>
+						<h3 class="card__title">点てるように、混ぜる</h3>
+						<p class="card__text">なめらかな口当たりのため微細に混ぜ合わせ。</p>
 					</article>
 					<article class="card">
-						<img src="https://placehold.co/600x400/jpg?text=Feature2" alt="Feature2" />
-						<h3>香りを守る</h3>
-						<p>光・酸素の影響を考慮したパッケージ。</p>
+						<img
+							class="card__img"
+							src="https://placehold.co/600x400/jpg?text=Feature2"
+							alt="Feature2"
+						/>
+						<h3 class="card__title">香りを守る</h3>
+						<p class="card__text">光・酸素の影響を考慮したパッケージ。</p>
 					</article>
 					<article class="card">
-						<img src="https://placehold.co/600x400/jpg?text=Feature3" alt="Feature3" />
-						<h3>余韻の設計</h3>
-						<p>ミルクとSAMPLEの比率を最適化。</p>
+						<img
+							class="card__img"
+							src="https://placehold.co/600x400/jpg?text=Feature3"
+							alt="Feature3"
+						/>
+						<h3 class="card__title">余韻の設計</h3>
+						<p class="card__text">ミルクとSAMPLEの比率を最適化。</p>
 					</article>
 				</div>
 			</div>
 		</section>
 
 		<!-- How to -->
-		<section id="howto" class="howto reveal">
-			<div class="container">
-				<h2 class="section-title">おいしい飲み方</h2>
+		<section id="howto" class="howto u-reveal">
+			<div class="l-container">
+				<h2 class="section__title">おいしい飲み方</h2>
 				<div class="steps">
-					<div class="step">
-						<div class="num">01</div>
-						<h3>よく冷やす</h3>
+					<div class="steps__item">
+						<div class="steps__num">01</div>
+						<h3 class="steps__title">よく冷やす</h3>
 					</div>
-					<div class="step">
-						<div class="num">02</div>
-						<h3>軽くシェイク</h3>
+					<div class="steps__item">
+						<div class="steps__num">02</div>
+						<h3 class="steps__title">軽くシェイク</h3>
 					</div>
-					<div class="step">
-						<div class="num">03</div>
-						<h3>ゆっくり味わう</h3>
+					<div class="steps__item">
+						<div class="steps__num">03</div>
+						<h3 class="steps__title">ゆっくり味わう</h3>
 					</div>
 				</div>
+
 				<div class="slider">
-					<div class="slides">
-						<div class="slide">
+					<div class="slider__slides">
+						<div class="slider__slide">
 							<img src="https://placehold.co/1200x600/jpg?text=Slide1" alt="Slide1" />
 						</div>
-						<div class="slide">
+						<div class="slider__slide">
 							<img src="https://placehold.co/1200x600/jpg?text=Slide2" alt="Slide2" />
 						</div>
-						<div class="slide">
+						<div class="slider__slide">
 							<img src="https://placehold.co/1200x600/jpg?text=Slide3" alt="Slide3" />
 						</div>
 					</div>
-					<button class="slider-btn prev">‹</button>
-					<button class="slider-btn next">›</button>
-					<div class="dots"></div>
+					<button class="slider__btn slider__btn--prev">‹</button>
+					<button class="slider__btn slider__btn--next">›</button>
+					<div class="slider__dots"></div>
 				</div>
 			</div>
 		</section>
 
 		<!-- FAQ -->
-		<section id="faq" class="faq reveal">
-			<div class="container">
-				<h2 class="section-title">よくある質問</h2>
-				<div class="faq-list">
-					<div class="faq-item">
-						<button class="faq-q" aria-expanded="false" aria-controls="f1">
+		<section id="faq" class="faq u-reveal">
+			<div class="l-container">
+				<h2 class="section__title">よくある質問</h2>
+				<div class="faq__list">
+					<div class="faq__item">
+						<button class="faq__q" aria-expanded="false" aria-controls="f1">
 							原材料は？<span>＋</span>
 						</button>
-						<div id="f1" class="faq-a">ダミー：SAMPLE・砂糖・乳製品</div>
+						<div id="f1" class="faq__a">ダミー：SAMPLE・砂糖・乳製品</div>
 					</div>
-					<div class="faq-item">
-						<button class="faq-q" aria-expanded="false" aria-controls="f2">
+					<div class="faq__item">
+						<button class="faq__q" aria-expanded="false" aria-controls="f2">
 							アレルギー表示は？<span>＋</span>
 						</button>
-						<div id="f2" class="faq-a">ダミー：乳成分を含む</div>
+						<div id="f2" class="faq__a">ダミー：乳成分を含む</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Footer -->
-		<footer class="site-footer">
-			<div class="container footer-row">
+		<footer class="footer">
+			<div class="l-container footer__row">
 				<small>© <span id="year"></span> SAMPLE LATTE</small>
-				<div class="links">
+				<div class="footer__links">
 					<a href="#">利用規約</a>
 					<a href="#">プライバシー</a>
 				</div>
@@ -177,9 +187,11 @@
 		</footer>
 
 		<div class="floating-cta">
-			<div class="floating-inner">
-				<div class="floating-text"><strong>数量限定</strong><span>今なら特別パッケージ</span></div>
-				<a href="#howto" class="btn btn-primary js-scroll">楽しみ方を見る</a>
+			<div class="floating-cta__inner">
+				<div class="floating-cta__text">
+					<strong>数量限定</strong><span>今なら特別パッケージ</span>
+				</div>
+				<a href="#howto" class="btn btn--primary js-scroll">楽しみ方を見る</a>
 			</div>
 		</div>
 
