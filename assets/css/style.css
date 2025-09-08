@@ -434,6 +434,7 @@ section {
 	display: flex;
 	gap: 8px;
 	align-items: baseline;
+	font-size: 14px;
 }
 .floating-cta__text strong {
 	color: #ffd37a;
